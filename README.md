@@ -13,11 +13,7 @@ Please follow the below instructions to install and connect to this server.
 
     `npm install`
     
-    the follow hat by running;
-    
-    `npm start`
-    
-    
+     `npm start`
 #2. To coonect your JSON Server In your terminal, initialize the server connection by entering the below code in your local environment:
 
     npx json-server --watch data/db.json --port 8000
