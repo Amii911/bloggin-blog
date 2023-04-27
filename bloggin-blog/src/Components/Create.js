@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
-  const [author, setAuthor] = useState('mario');
+  const [author, setAuthor] = useState('Blogger');
   const history = useHistory();
 
   const handleSubmit = (e) => {
@@ -17,7 +17,6 @@ const Create = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
     }).then(() => {
-      // history.go(-1);
       history.push('/');
     })
   }
