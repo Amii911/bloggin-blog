@@ -1,15 +1,12 @@
 import React from 'react';
-import BlogList from "../Components/BlogList";
-import useFetch from "../Components/useFetch";
 
 const Home = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
+ 
 
   return (
     <div className="home">
-      { error && <div>{ error }</div> }
-      { isPending && <div>Loading...</div> }
-      { blogs && <BlogList blogs={blogs} /> }
+      <h2>This is where I will have intro to Bloggin Blog</h2>
+      <p>Welcome to Bloggin Blog where you can Blog or prepare for starting a blog. </p>
     </div>
   );
 }
