@@ -8,6 +8,7 @@ const Blog = () => {
 
     return(
         <div className="blog">
+            <h2>All Blogs!</h2>
             { error && <div>{ error }</div> }
             { isPending && <div>Loading...</div> }
             { blogs && <BlogList blogs={blogs} /> }
