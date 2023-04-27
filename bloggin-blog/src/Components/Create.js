@@ -12,7 +12,10 @@ const Create = () => {
 
         fetch('http://localhost:8000/blogs', {
             method: 'POST',
-            headers: { "Content-Type": "application/json"}
+            headers: { "Content-Type": "application/json"},
+            body: JSON.stringify(blog)
+        }) .then(() => {
+            console.log('new blog added')
         })
     }
 
