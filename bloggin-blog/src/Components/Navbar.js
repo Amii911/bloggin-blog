@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav className="navbar">
           <h1>The Bloggin Blog</h1>
