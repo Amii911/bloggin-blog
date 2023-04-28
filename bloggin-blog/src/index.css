@@ -2,78 +2,120 @@
 
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   color: #333333;
 }
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .navbar h1 {
   color: #356af1;
+  font-size: 36px;
+  font-weight: bold;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
+  padding: 8px;
+  color: #333333;
+  transition: color 0.2s ease-in-out;
 }
+
 .navbar a:hover {
-  color: #356af1;
+  color: #ff8c00;
 }
+
 .content {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .blog-preview {
-  padding: 10px 16px;
+  padding: 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #f2f2f2;
+  transition: box-shadow 0.2s ease-in-out;
 }
+
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .blog-preview h2 {
-  font-size: 20px;
+  font-size: 28px;
   color: #356af1;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  transition: color 0.2s ease-in-out;
+}
+
+.blog-preview:hover h2 {
+  color: #ff8c00;
 }
 
 .create {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-radius: 8px;
 }
+
 .create label {
   text-align: left;
   display: block;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 8px;
 }
+
 .create h2 {
-  font-size: 20px;
+  font-size: 28px;
   color: #356af1;
   margin-bottom: 30px;
+  font-weight: bold;
 }
-.create input, .create textarea, .create select {
+
+.create input,
+.create textarea,
+.create select {
   width: 100%;
-  padding: 6px 10px;
+  padding: 12px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
   box-sizing: border-box;
-  display: block;
 }
+
 .create button {
   background: #356af1;
-  color: #fff;
+  color: #ffffff;
   border: 0;
-  padding: 8px;
+  padding: 12px 16px;
   border-radius: 8px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.create button:hover {
+  background-color: #ff8c00;
 }
