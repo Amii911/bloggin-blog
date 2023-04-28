@@ -4,6 +4,9 @@ Bloggin Blog is a single page application using create-react-app.
 # Description:
 Create a beautiful blog today. Bloggin Blog is a space for users to share their story, speak their mind and even hang onto a memeory. Users are able to build, manage, and delete blogs easily with Bloggin Blog. Join millions today and create a blog with Bloggin Blog.
 
+# Preview:
+![alt-text](imgLink)
+
 # Technologies:
 This single page application uses React and CSS
 
@@ -23,6 +26,4 @@ Please follow the below instructions to install and connect to this server.
 #3. To coonect your JSON Server In your terminal, initialize the server connection by entering the below code in your local environment:
 
     $npx json-server --watch data/db.json --port 8000
-
-# Preview:
-![alt-text](imgLink)
+    
