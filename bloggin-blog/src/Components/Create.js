@@ -43,10 +43,12 @@ const Create = () => {
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         >
-          <option value="mario">mario</option>
-          <option value="yoshi">yoshi</option>
+          <option value="">Select Blogger</option>
+          <option value="Ami">Ami</option>
+          <option value="Aminat">Aminat</option>
+          <option value="Mimi">Mimi</option>
         </select>
-        <button>Add Blog</button>
+        <button>ADD BLOG</button>
       </form>
     </div>
   );
@@ -55,4 +57,3 @@ const Create = () => {
 export default Create;
 
 
-// how can I add author tag to allow folks to create an author name
