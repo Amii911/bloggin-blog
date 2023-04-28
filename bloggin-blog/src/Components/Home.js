@@ -2,11 +2,6 @@ import React from 'react';
 
 
 const Home = () => {
- 
-  function createBlog() {
-    console.log('HOW TO CONNECT TO NEW BLOG IN NAVBAR/CREATE COMPONENT')
-  }
-
   return (
     <div className="home">
       <h2>WELCOME TO BLOGGIN BLOG</h2>
