@@ -5,8 +5,8 @@ Bloggin Blog is a single page application using create-react-app.
 Create a beautiful blog today. Bloggin Blog is a space for users to share their story, speak their mind and even hang onto a memeory. Users are able to build, manage, and delete blogs easily with Bloggin Blog. Join millions today and create a blog with Bloggin Blog.
 
 # Preview:
-![Bloggin Blog](![Screenshot 2023-05-23 103953](https://github.com/Amii911/bloggin-blog/assets/121322907/7454eea4-170c-455d-a1cf-b9050432457b)
-)
+![Bloggin Blog]![Screenshot 2023-05-23 103953](https://github.com/Amii911/bloggin-blog/assets/121322907/7454eea4-170c-455d-a1cf-b9050432457b)
+
 
 # Technologies:
 This single page application uses React and CSS
