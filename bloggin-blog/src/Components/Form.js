@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-const Create = () => {
+const Form = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('Add Blogger Name');
@@ -22,7 +22,7 @@ const Create = () => {
   }
 
   return (
-    <div className="create">
+    <div className="form">
       <h2>Add a New Blog</h2>
       <form onSubmit={handleSubmit}>
         <label>Blog title:</label>
@@ -51,5 +51,5 @@ const Create = () => {
   );
 }
  
-export default Create;
+export default Form;
 

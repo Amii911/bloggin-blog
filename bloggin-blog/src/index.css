@@ -68,7 +68,7 @@
   color: #ff8c00;
 }
 
-.create {
+.form {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -78,7 +78,7 @@
   border-radius: 8px;
 }
 
-.create label {
+.form label {
   text-align: left;
   display: block;
   font-weight: bold;
@@ -86,16 +86,16 @@
   margin-bottom: 8px;
 }
 
-.create h2 {
+.form h2 {
   font-size: 28px;
   color: #356af1;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-.create input,
-.create textarea,
-.create select {
+.form input,
+.form textarea,
+.form select {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
@@ -104,7 +104,7 @@
   box-sizing: border-box;
 }
 
-.create button {
+.form button {
   background: #356af1;
   color: #ffffff;
   border: 0;
@@ -116,6 +116,6 @@
   transition: background-color 0.2s ease-in-out;
 }
 
-.create button:hover {
+.form button:hover {
   background-color: #ff8c00;
 }

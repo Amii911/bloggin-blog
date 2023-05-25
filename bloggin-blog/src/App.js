@@ -1,6 +1,6 @@
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
-import Create from './Components/Create';
+import Form from './Components/Form';
 import Blog from './Components/Blog';
 import BlogDetails from './Components/BlogDetails';
 import{ BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -19,8 +19,8 @@ function App() {
           <Route path="/blog">
             <Blog/>
           </Route>
-          <Route path="/create">
-            <Create/>
+          <Route path="/form">
+            <Form/>
           </Route>
           <Route path="/blogs/:id">
             <BlogDetails/>
