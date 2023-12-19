@@ -12,7 +12,7 @@ function App() {
     <Router>
   <div className="App">
       <Navbar />
-      <ClickMe />
+      {/* <ClickMe /> */}
       <div className="content">
         <Switch>
           <Route exact path="/">
