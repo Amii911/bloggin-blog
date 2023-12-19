@@ -4,6 +4,7 @@ import Form from './Components/Form';
 import Blog from './Components/Blog';
 import BlogDetails from './Components/BlogDetails';
 import{ BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ClickMe from './Components/ClickMe';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Router>
   <div className="App">
       <Navbar />
+      <ClickMe />
       <div className="content">
         <Switch>
           <Route exact path="/">

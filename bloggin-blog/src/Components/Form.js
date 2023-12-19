@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from "react";
+import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 
 const Form = () => {
@@ -11,7 +10,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { title, body, author };
-
+//POST reuqest made to send data to server
     fetch('http://localhost:8000/blogs/', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },

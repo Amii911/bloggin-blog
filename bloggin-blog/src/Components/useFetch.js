@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+//this is for a GET REQUEST - passing URL. not a Post like in component useFetch
+
 const useFetch = (url) => {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(true);
@@ -20,7 +22,7 @@ const useFetch = (url) => {
         setError(null);
       })
       .catch(err => {
-        // auto catches network / connection error
+        // auto catches network / connection error / catch is if promise is rejected
         setIsPending(false);
         setError(err.message);
       })
