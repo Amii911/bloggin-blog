@@ -28,3 +28,4 @@ Please follow the below instructions to install and connect to this server.
 
     $npx json-server --watch data/db.json --port 8000
     
+# leetcode-solutions
